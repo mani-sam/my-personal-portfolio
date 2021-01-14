@@ -1,0 +1,51 @@
+body{
+  background-color: #000;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  top: 0;
+  width: 100%; /* Full width */
+  background-color: #50C878;
+}
+
+.navbar a{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#hero h1 {
+  padding-top: 215px;
+}
+
+#hero .btn-about:hover {
+  background: #50C878;
+}
+
+
+
+.aboutMe {
+  padding: 32px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.table {
+  background-color: #000;
+}
+
+.scrollableRow {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.portfolioImg {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+
+.portfolioImg:hover {
+  box-shadow: 0 0 10px 1px #50C878;
+}
